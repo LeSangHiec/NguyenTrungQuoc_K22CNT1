@@ -1,0 +1,8 @@
+﻿@model Song
+
+<h2>@Model.Title</h2>
+
+<audio controls>
+    <source src="@Model.DownloadUrl" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>

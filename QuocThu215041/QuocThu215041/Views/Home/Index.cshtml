@@ -1,0 +1,25 @@
+﻿@model List<Song>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Song List</title>
+</head>
+<body>
+    <h1>Song List</h1>
+    <ul>
+        @foreach (var song in Model)
+        {
+        <div>
+            <h3>@song.Title</h3>
+            <audio controls>
+                <source src="@song.DownloadUrl" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <a href="@Url.Action("Detail", "Home", new { id = song.Id })">Chi tiết</a>
+            <a href="@song.DownloadUrl" download="@song.Title + '.mp3'">Tải về</a>
+        </div>
+        }
+    </ul>
+</body>
+</html>
