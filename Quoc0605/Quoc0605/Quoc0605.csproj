@@ -121,7 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\TvcStudentController.cs" />
+    <Compile Include="Controllers\NtqStudentController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -163,11 +163,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\TvcStudent\Index.cshtml" />
-    <Content Include="Views\TvcStudent\chiTiet.cshtml" />
-    <Content Include="Views\TvcStudent\NgonNguRazor.cshtml" />
-    <Content Include="Views\TvcStudent\AddNewStudent.cshtml" />
-    <Content Include="Views\TvcStudent\Ketqua.cshtml" />
+    <Content Include="Views\NtqStudent\Index.cshtml" />
+    <Content Include="Views\NtqStudent\chiTiet.cshtml" />
+    <Content Include="Views\NtqStudent\NgonNguRazor.cshtml" />
+    <Content Include="Views\NtqStudent\AddNewStudent.cshtml" />
+    <Content Include="Views\NtqStudent\Ketqua.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

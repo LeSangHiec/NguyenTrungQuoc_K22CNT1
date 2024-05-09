@@ -10,9 +10,9 @@ namespace Quoc0605.Controllers
     /// Author: Nguyễn Trung Quốc
     /// Class: K22CNT1
     /// </summary>
-    public class TvcStudentController : Controller
+    public class NtqStudentController : Controller
     {
-        // GET: TvcStudent
+        // GET: NtqStudent
         public ActionResult Index()
         {
             //Truyền dữ liệu từ controller lên view
@@ -23,10 +23,10 @@ namespace Quoc0605.Controllers
         }
 
         public ActionResult Details() {
-            string tvcStr = "";
-            tvcStr += "<h3> Họ và tên: Nguyễn Trung Quốc </h3>";
-            tvcStr += "<p> Mã số: 2210900119";
-            tvcStr += "<p> Email: trungquock102@gmail.com";
+            string ntqStr = "";
+            ntqStr += "<h3> Họ và tên: Nguyễn Trung Quốc </h3>";
+            ntqStr += "<p> Mã số: 2210900119";
+            ntqStr += "<p> Email: trungquock102@gmail.com";
             ViewBag.Details = "";
             return View("chiTiet");
         }
@@ -36,7 +36,7 @@ namespace Quoc0605.Controllers
 
         }
         // HTMLHelper
-        // Get: TvcStudent/AddNewStudent
+        // Get: NtqStudent/AddNewStudent
         public ActionResult AddNewStudent()
         {
             return View();
@@ -50,12 +50,12 @@ namespace Quoc0605.Controllers
             string Taikhoan = form["TaiKhoan"];
             string MatKhau = form["MatKhau"];
 
-            string tvcStr = "<h3>" + fullname + "</h3>";
-            tvcStr += "<p>" + masv;
-            tvcStr += "<p>" + Taikhoan;
-            tvcStr += "<p>" + MatKhau;
+            string ntqStr = "<h3>" + fullname + "</h3>";
+            ntqStr += "<p>" + masv;
+            ntqStr += "<p>" + Taikhoan;
+            ntqStr += "<p>" + MatKhau;
 
-            ViewBag.info = tvcStr;
+            ViewBag.info = ntqStr;
             return View("Ketqua");
         }
     }
