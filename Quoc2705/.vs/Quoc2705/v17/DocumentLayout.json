@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\Quoc2705\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|c:\\users\\admin\\source\\repos\\quoc2705\\quoc2705\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|solutionrelative:quoc2705\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|c:\\users\\admin\\source\\repos\\quoc2705\\quoc2705\\controllers\\ntqmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|solutionrelative:quoc2705\\controllers\\ntqmembercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|c:\\users\\admin\\source\\repos\\quoc2705\\quoc2705\\models\\ntqmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|solutionrelative:quoc2705\\models\\ntqmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|c:\\users\\admin\\source\\repos\\quoc2705\\quoc2705\\views\\ntqmember\\createthree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|solutionrelative:quoc2705\\views\\ntqmember\\createthree.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|c:\\users\\admin\\source\\repos\\quoc2705\\quoc2705\\views\\ntqmember\\createtwo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|solutionrelative:quoc2705\\views\\ntqmember\\createtwo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|c:\\users\\admin\\source\\repos\\quoc2705\\quoc2705\\views\\ntqmember\\createone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|solutionrelative:quoc2705\\views\\ntqmember\\createone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|c:\\users\\admin\\source\\repos\\quoc2705\\quoc2705\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|solutionrelative:quoc2705\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|c:\\users\\admin\\source\\repos\\quoc2705\\quoc2705\\views\\ntqmember\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BD546DC8-B959-4624-8786-C0D5FA472FE6}|Quoc2705\\Quoc2705.csproj|solutionrelative:quoc2705\\views\\ntqmember\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateThree.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Views\\ntqMember\\CreateThree.cshtml",
+              "RelativeDocumentMoniker": "Quoc2705\\Views\\ntqMember\\CreateThree.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Views\\ntqMember\\CreateThree.cshtml",
+              "RelativeToolTip": "Quoc2705\\Views\\ntqMember\\CreateThree.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:47:24.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateTwo.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Views\\ntqMember\\CreateTwo.cshtml",
+              "RelativeDocumentMoniker": "Quoc2705\\Views\\ntqMember\\CreateTwo.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Views\\ntqMember\\CreateTwo.cshtml",
+              "RelativeToolTip": "Quoc2705\\Views\\ntqMember\\CreateTwo.cshtml",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:46:40.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateOne.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Views\\ntqMember\\CreateOne.cshtml",
+              "RelativeDocumentMoniker": "Quoc2705\\Views\\ntqMember\\CreateOne.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Views\\ntqMember\\CreateOne.cshtml",
+              "RelativeToolTip": "Quoc2705\\Views\\ntqMember\\CreateOne.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:45:49.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Quoc2705\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Quoc2705\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:45:13.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Views\\ntqMember\\Details.cshtml",
+              "RelativeDocumentMoniker": "Quoc2705\\Views\\ntqMember\\Details.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Views\\ntqMember\\Details.cshtml",
+              "RelativeToolTip": "Quoc2705\\Views\\ntqMember\\Details.cshtml",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:44:14.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ntqMemberController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Controllers\\ntqMemberController.cs",
+              "RelativeDocumentMoniker": "Quoc2705\\Controllers\\ntqMemberController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Controllers\\ntqMemberController.cs",
+              "RelativeToolTip": "Quoc2705\\Controllers\\ntqMemberController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:41:21.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ntqMember.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Models\\ntqMember.cs",
+              "RelativeDocumentMoniker": "Quoc2705\\Models\\ntqMember.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Models\\ntqMember.cs",
+              "RelativeToolTip": "Quoc2705\\Models\\ntqMember.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T13:40:27.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Quoc2705\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\Quoc2705\\Quoc2705\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Quoc2705\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:40:05.29Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
