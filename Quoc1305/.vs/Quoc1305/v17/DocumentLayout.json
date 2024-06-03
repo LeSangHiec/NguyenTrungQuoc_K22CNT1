@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\quoc1305\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|solutionrelative:quoc1305\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\quoc1305\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|solutionrelative:quoc1305\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc1305\\quoc1305\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|solutionrelative:quoc1305\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc1305\\quoc1305\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\quoc1305\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|solutionrelative:quoc1305\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\quoc1305\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|solutionrelative:quoc1305\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\quoc1305\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|solutionrelative:quoc1305\\views\\customer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\quoc1305\\views\\customer\\getcustomers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -47,10 +51,6 @@
       "RelativeMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|solutionrelative:quoc1305\\views\\customer\\customerdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\quoc1305\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|solutionrelative:quoc1305\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\quoc1305\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1860A19-C9D0-4AA1-95C4-5342696DB986}|Quoc1305\\Quoc1305.csproj|solutionrelative:quoc1305\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -62,24 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Quoc1305\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Quoc1305\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T13:12:59.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Quoc1305\\Views\\Shared\\_Layout.cshtml",
@@ -92,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\Customer\\Edit.cshtml",
               "RelativeDocumentMoniker": "Quoc1305\\Views\\Customer\\Edit.cshtml",
@@ -104,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\Customer\\Create.cshtml",
               "RelativeDocumentMoniker": "Quoc1305\\Views\\Customer\\Create.cshtml",
@@ -116,19 +103,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\Customer\\Details.cshtml",
               "RelativeDocumentMoniker": "Quoc1305\\Views\\Customer\\Details.cshtml",
               "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\Customer\\Details.cshtml",
               "RelativeToolTip": "Quoc1305\\Views\\Customer\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAEAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADMAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T13:43:20.876Z"
+              "WhenOpened": "2024-05-13T13:43:20.876Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "GetCustomers.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\Customer\\GetCustomers.cshtml",
               "RelativeDocumentMoniker": "Quoc1305\\Views\\Customer\\GetCustomers.cshtml",
@@ -140,7 +128,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Models\\CustomerRepository.cs",
               "RelativeDocumentMoniker": "Quoc1305\\Models\\CustomerRepository.cs",
@@ -152,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ICustomerRepository.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Models\\ICustomerRepository.cs",
               "RelativeDocumentMoniker": "Quoc1305\\Models\\ICustomerRepository.cs",
@@ -164,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CustomerList.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\Customer\\CustomerList.cshtml",
               "RelativeDocumentMoniker": "Quoc1305\\Views\\Customer\\CustomerList.cshtml",
@@ -176,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Quoc1305\\Controllers\\HomeController.cs",
@@ -188,7 +176,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Quoc1305\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Quoc1305\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAIwGQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T13:29:56.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Quoc1305\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Quoc1305\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-27T13:12:59.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CustomerDetail.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Views\\Customer\\CustomerDetail.cshtml",
               "RelativeDocumentMoniker": "Quoc1305\\Views\\Customer\\CustomerDetail.cshtml",
@@ -201,18 +214,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "Quoc1305\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc1305\\Quoc1305\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "Quoc1305\\Controllers\\CustomerController.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAkwGQAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T13:29:56.917Z"
             },
             {
               "$type": "Document",
