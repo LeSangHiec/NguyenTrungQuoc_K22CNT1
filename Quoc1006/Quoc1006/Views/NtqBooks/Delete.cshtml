@@ -1,0 +1,73 @@
+﻿@model Quoc1006.Models.NtqBook
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>NtqBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqCategory.NtqCategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqCategory.NtqCategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqPublisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqPublisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqPicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqPicture)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

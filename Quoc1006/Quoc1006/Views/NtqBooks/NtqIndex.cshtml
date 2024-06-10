@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Quoc1006.Models.NtqBook>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqCategory.NtqCategoryName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqAuthor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqPublisher)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqPicture)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqCategory.NtqCategoryName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqAuthor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqPublisher)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqPicture)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.NtqBookId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.NtqBookId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.NtqBookId })
+        </td>
+    </tr>
+}
+
+</table>

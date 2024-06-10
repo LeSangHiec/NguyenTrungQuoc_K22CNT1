@@ -1,0 +1,67 @@
+﻿@model Quoc1006.Models.NtqBook
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NtqBook</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqCategory.NtqCategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqCategory.NtqCategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqAuthor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqAuthor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqPublisher)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqPublisher)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NtqPicture)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NtqPicture)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NtqBookId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
