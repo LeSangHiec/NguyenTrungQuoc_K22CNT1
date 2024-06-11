@@ -5,11 +5,11 @@ import NtqStudentAddOrEdit from './components/NtqStudentAddOrEdit';
 
 function App() {
   const ntq_listStudents = [
-    { ntq_Id:2210900119, ntq_StudentName:"nguyen huu phuc", ntq_age:21},
-    { ntq_Id:1, ntq_StudentName:"Le Tinh Tinh", ntq_age:19},
-    { ntq_Id:2, ntq_StudentName:"Duong Hao Hoa",ntq_age:18},
-    { ntq_Id:3, ntq_StudentName:"Nguyen Trung Quoa",ntq_age:19},
-    { ntq_Id:4, ntq_StudentName:"Dao Linh Tinh",ntq_age:19},
+    { ntq_Id:2210900119, ntq_StudentName:"nguyen huu phuc", ntq_age:21,isActive: true},
+    { ntq_Id:1, ntq_StudentName:"Le Tinh Tinh", ntq_age:19,isActive: false},
+    { ntq_Id:2, ntq_StudentName:"Duong Hao Hoa",ntq_age:18,isActive: true},
+    { ntq_Id:3, ntq_StudentName:"Nguyen Trung Quoa",ntq_age:19,isActive: false},
+    { ntq_Id:4, ntq_StudentName:"Dao Linh Tinh",ntq_age:19,isActive: true},
    ];
    const ntqStudentObj = { 
     ntq_Id: 0,

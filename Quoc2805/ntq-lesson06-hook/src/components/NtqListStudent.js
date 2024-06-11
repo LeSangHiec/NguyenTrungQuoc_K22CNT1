@@ -12,6 +12,7 @@ export default function NtqListStudent({ renderNtqListStudents, removeItem, edit
                     <td>{Student.ntq_Id}</td>
                     <td>{Student.ntq_StudentName}</td>
                     <td>{Student.ntq_age}</td>
+                    <td>{}</td>
                     <td>
                         <button className='btn btn-success' onClick={() => editItem(Student)}>Edit</button>
                         <button className='btn btn-danger' onClick={() => removeItem(Student.ntq_Id)}>Remove</button>
@@ -32,7 +33,7 @@ export default function NtqListStudent({ renderNtqListStudents, removeItem, edit
                         <th>Student ID</th>
                         <th>Student Name</th>
                         <th>Student age</th>
-                        <th></th>
+                        <th>Active</th>
                     </tr>
                 </thead>
 
