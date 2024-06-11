@@ -12,7 +12,13 @@ export default function NtqListStudent({ renderNtqListStudents, removeItem, edit
                     <td>{Student.ntq_Id}</td>
                     <td>{Student.ntq_StudentName}</td>
                     <td>{Student.ntq_age}</td>
-                    <td>{}</td>
+                    <td>
+                        <input
+                            type="checkbox"
+                            checked={Student.ntqIsActive}
+                            readOnly
+                        />
+                    </td>
                     <td>
                         <button className='btn btn-success' onClick={() => editItem(Student)}>Edit</button>
                         <button className='btn btn-danger' onClick={() => removeItem(Student.ntq_Id)}>Remove</button>

@@ -43,6 +43,19 @@ export default function NtqStudentAddOrEdit({ ntqOnSubmit, StudentEdit, isEdit }
                     <label> age</label>
                     <input name='ntq_age' value={ntqStudent.ntq_age} onChange={ntqHandleChange}/>
                 </div>
+                <div className="form-group mb-3">
+            <label>Hoạt động:</label>
+            <div className="form-check">
+              <input
+                type="checkbox"
+                name='ntqIsActive'
+                checked={ntqStudent.IsActive}
+                onChange={ntqHandleChange}
+                className="form-check-input"
+              />
+              <label className="form-check-label">Active</label>
+            </div>
+          </div>
                 <button onClick={ntqHandleSubmit}>{isEdit ? 'Update' : 'Add'}</button>
             </form>
         </div>
