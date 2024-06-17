@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NtqK22CNT1Lesoon07bModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NtqKhoa">
+    <Key>
+      <PropertyRef Name="NtqMaKhoa" />
+    </Key>
+    <Property Name="NtqMaKhoa" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="NtqTenKhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NtqTrangThai" Type="Boolean" />
+    <NavigationProperty Name="NtqSinhVien" Relationship="NtqK22CNT1Lesoon07bModel.FK_NtqSinhVien_NtqKhoa" FromRole="NtqKhoa" ToRole="NtqSinhVien" />
+  </EntityType>
+  <EntityType Name="NtqSinhVien">
+    <Key>
+      <PropertyRef Name="NtqMaSV" />
+    </Key>
+    <Property Name="NtqMaSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NtqHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NtqTenSv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NtqNgaySinh" Type="DateTime" Precision="0" />
+    <Property Name="NtqPhai" Type="Boolean" />
+    <Property Name="NtqPhone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="NtqEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="NtqMaKh" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="NtqMaKhoa" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="NtqKhoa" Relationship="NtqK22CNT1Lesoon07bModel.FK_NtqSinhVien_NtqKhoa" FromRole="NtqSinhVien" ToRole="NtqKhoa" />
+  </EntityType>
+  <EntityContainer Name="NtqK22CNT1Lesoon07bEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NtqKhoa" EntityType="Self.NtqKhoa" />
+    <EntitySet Name="NtqSinhVien" EntityType="Self.NtqSinhVien" />
+    <AssociationSet Name="FK_NtqSinhVien_NtqKhoa" Association="NtqK22CNT1Lesoon07bModel.FK_NtqSinhVien_NtqKhoa">
+      <End Role="NtqKhoa" EntitySet="NtqKhoa" />
+      <End Role="NtqSinhVien" EntitySet="NtqSinhVien" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_NtqSinhVien_NtqKhoa">
+    <End Type="NtqK22CNT1Lesoon07bModel.NtqKhoa" Role="NtqKhoa" Multiplicity="0..1" />
+    <End Type="NtqK22CNT1Lesoon07bModel.NtqSinhVien" Role="NtqSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NtqKhoa">
+        <PropertyRef Name="NtqMaKhoa" />
+      </Principal>
+      <Dependent Role="NtqSinhVien">
+        <PropertyRef Name="NtqMaKhoa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
