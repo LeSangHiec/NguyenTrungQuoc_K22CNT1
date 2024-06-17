@@ -4,10 +4,11 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="19154b6356fd4a04ab03bb22c36ed078" Name="Diagram1">
-        <EntityTypeShape EntityType="NtqK22CNT1Lesoon07bModel.NtqKhoa" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="NtqK22CNT1Lesoon07bModel.NtqSinhVien" Width="1.5" PointX="6.125" PointY="0.875" IsExpanded="true" />
-        <AssociationConnector Association="NtqK22CNT1Lesoon07bModel.FK_NtqSinhVien_NtqKhoa" />
+      <Diagram DiagramId="85e2c176c4d74f9aa27e6923320fdbe5" Name="Diagram1">
+        <EntityTypeShape EntityType="NtqK22CNT1Lesson07bModel.ntqKhoa" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NtqK22CNT1Lesson07bModel.ntqSinhVien" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NtqK22CNT1Lesson07bModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="NtqK22CNT1Lesson07bModel.FK_ntqSinhVien_ntqKhoa" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -12,19 +12,19 @@ namespace NtqBaiKiemTraGiuaKi.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class NtqKhoa
+    public partial class ntqKhoa
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public NtqKhoa()
+        public ntqKhoa()
         {
-            this.NtqSinhVien = new HashSet<NtqSinhVien>();
+            this.ntqSinhVien = new HashSet<ntqSinhVien>();
         }
     
-        public string NtqMaKhoa { get; set; }
-        public string NtqTenKhoa { get; set; }
+        public string NtqMaKH { get; set; }
+        public string NtqTenKH { get; set; }
         public Nullable<bool> NtqTrangThai { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<NtqSinhVien> NtqSinhVien { get; set; }
+        public virtual ICollection<ntqSinhVien> ntqSinhVien { get; set; }
     }
 }

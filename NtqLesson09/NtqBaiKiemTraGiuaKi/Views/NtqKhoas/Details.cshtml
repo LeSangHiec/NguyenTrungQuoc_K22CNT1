@@ -1,21 +1,21 @@
-﻿@model NtqBaiKiemTraGiuaKi.Models.NtqKhoa
+﻿@model NtqBaiKiemTraGiuaKi.Models.ntqKhoa
 
 @{
-    ViewBag.Title = "NtqDetails";
+    ViewBag.Title = "Details";
 }
 
 <h2>Details</h2>
 
 <div>
-    <h4>NtqKhoa</h4>
+    <h4>ntqKhoa</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.NtqTenKhoa)
+            @Html.DisplayNameFor(model => model.NtqTenKH)
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.NtqTenKhoa)
+            @Html.DisplayFor(model => model.NtqTenKH)
         </dd>
 
         <dt>
@@ -29,6 +29,6 @@
     </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.NtqMaKhoa }) |
+    @Html.ActionLink("Edit", "Edit", new { id = Model.NtqMaKH }) |
     @Html.ActionLink("Back to List", "Index")
 </p>

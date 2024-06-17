@@ -4,122 +4,155 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-    <Schema Namespace="NtqK22CNT1Lesoon07bModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-        <EntityType Name="NtqKhoa">
+      <Schema Namespace="NtqK22CNT1Lesson07bModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ntqKhoa">
           <Key>
-            <PropertyRef Name="NtqMaKhoa" />
+            <PropertyRef Name="NtqMaKH" />
           </Key>
-          <Property Name="NtqMaKhoa" Type="nchar" MaxLength="10" Nullable="false" />
-          <Property Name="NtqTenKhoa" Type="nvarchar" MaxLength="50" />
+          <Property Name="NtqMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="NtqTenKH" Type="nvarchar" MaxLength="50" />
           <Property Name="NtqTrangThai" Type="bit" />
         </EntityType>
-        <EntityType Name="NtqSinhVien">
+        <EntityType Name="ntqSinhVien">
           <Key>
             <PropertyRef Name="NtqMaSV" />
           </Key>
           <Property Name="NtqMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
           <Property Name="NtqHoSV" Type="nvarchar" MaxLength="50" />
-          <Property Name="NtqTenSv" Type="nvarchar" MaxLength="50" />
+          <Property Name="NtqTenSV" Type="nvarchar" MaxLength="50" />
           <Property Name="NtqNgaySinh" Type="date" />
           <Property Name="NtqPhai" Type="bit" />
           <Property Name="NtqPhone" Type="nchar" MaxLength="10" />
-          <Property Name="NtqEmail" Type="nvarchar" MaxLength="50" />
-          <Property Name="NtqMaKhoa" Type="nchar" MaxLength="10" />
+          <Property Name="NtqEmail" Type="nchar" MaxLength="10" />
+          <Property Name="NtqMaKH" Type="nchar" MaxLength="10" />
         </EntityType>
-        <Association Name="FK_NtqSinhVien_NtqKhoa">
-          <End Role="NtqKhoa" Type="Self.NtqKhoa" Multiplicity="0..1" />
-          <End Role="NtqSinhVien" Type="Self.NtqSinhVien" Multiplicity="*" />
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <Association Name="FK_ntqSinhVien_ntqKhoa">
+          <End Role="ntqKhoa" Type="Self.ntqKhoa" Multiplicity="0..1" />
+          <End Role="ntqSinhVien" Type="Self.ntqSinhVien" Multiplicity="*" />
           <ReferentialConstraint>
-            <Principal Role="NtqKhoa">
-              <PropertyRef Name="NtqMaKhoa" />
+            <Principal Role="ntqKhoa">
+              <PropertyRef Name="NtqMaKH" />
             </Principal>
-            <Dependent Role="NtqSinhVien">
-              <PropertyRef Name="NtqMaKhoa" />
+            <Dependent Role="ntqSinhVien">
+              <PropertyRef Name="NtqMaKH" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="NtqK22CNT1Lesoon07bModelStoreContainer">
-          <EntitySet Name="NtqKhoa" EntityType="Self.NtqKhoa" Schema="dbo" store:Type="Tables" />
-          <EntitySet Name="NtqSinhVien" EntityType="Self.NtqSinhVien" Schema="dbo" store:Type="Tables" />
-          <AssociationSet Name="FK_NtqSinhVien_NtqKhoa" Association="Self.FK_NtqSinhVien_NtqKhoa">
-            <End Role="NtqKhoa" EntitySet="NtqKhoa" />
-            <End Role="NtqSinhVien" EntitySet="NtqSinhVien" />
+        <EntityContainer Name="NtqK22CNT1Lesson07bModelStoreContainer">
+          <EntitySet Name="ntqKhoa" EntityType="Self.ntqKhoa" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ntqSinhVien" EntityType="Self.ntqSinhVien" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_ntqSinhVien_ntqKhoa" Association="Self.FK_ntqSinhVien_ntqKhoa">
+            <End Role="ntqKhoa" EntitySet="ntqKhoa" />
+            <End Role="ntqSinhVien" EntitySet="ntqSinhVien" />
           </AssociationSet>
         </EntityContainer>
-      </Schema></edmx:StorageModels>
+      </Schema>
+    </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="NtqK22CNT1Lesoon07bModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityType Name="NtqKhoa">
+      <Schema Namespace="NtqK22CNT1Lesson07bModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ntqKhoa">
           <Key>
-            <PropertyRef Name="NtqMaKhoa" />
+            <PropertyRef Name="NtqMaKH" />
           </Key>
-          <Property Name="NtqMaKhoa" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
-          <Property Name="NtqTenKhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NtqMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="NtqTenKH" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="NtqTrangThai" Type="Boolean" />
-          <NavigationProperty Name="NtqSinhVien" Relationship="NtqK22CNT1Lesoon07bModel.FK_NtqSinhVien_NtqKhoa" FromRole="NtqKhoa" ToRole="NtqSinhVien" />
+          <NavigationProperty Name="ntqSinhVien" Relationship="Self.FK_ntqSinhVien_ntqKhoa" FromRole="ntqKhoa" ToRole="ntqSinhVien" />
         </EntityType>
-        <EntityType Name="NtqSinhVien">
+        <EntityType Name="ntqSinhVien">
           <Key>
             <PropertyRef Name="NtqMaSV" />
           </Key>
           <Property Name="NtqMaSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="NtqHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="NtqTenSv" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NtqTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="NtqNgaySinh" Type="DateTime" Precision="0" />
           <Property Name="NtqPhai" Type="Boolean" />
           <Property Name="NtqPhone" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-          <Property Name="NtqEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="NtqMaKh" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-          <Property Name="NtqMaKhoa" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-          <NavigationProperty Name="NtqKhoa" Relationship="NtqK22CNT1Lesoon07bModel.FK_NtqSinhVien_NtqKhoa" FromRole="NtqSinhVien" ToRole="NtqKhoa" />
+          <Property Name="NtqEmail" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="NtqMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <NavigationProperty Name="ntqKhoa" Relationship="Self.FK_ntqSinhVien_ntqKhoa" FromRole="ntqSinhVien" ToRole="ntqKhoa" />
         </EntityType>
-        <EntityContainer Name="NtqK22CNT1Lesoon07bEntities1" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="NtqKhoa" EntityType="Self.NtqKhoa" />
-          <EntitySet Name="NtqSinhVien" EntityType="Self.NtqSinhVien" />
-          <AssociationSet Name="FK_NtqSinhVien_NtqKhoa" Association="NtqK22CNT1Lesoon07bModel.FK_NtqSinhVien_NtqKhoa">
-            <End Role="NtqKhoa" EntitySet="NtqKhoa" />
-            <End Role="NtqSinhVien" EntitySet="NtqSinhVien" />
-          </AssociationSet>
-        </EntityContainer>
-        <Association Name="FK_NtqSinhVien_NtqKhoa">
-          <End Type="NtqK22CNT1Lesoon07bModel.NtqKhoa" Role="NtqKhoa" Multiplicity="0..1" />
-          <End Type="NtqK22CNT1Lesoon07bModel.NtqSinhVien" Role="NtqSinhVien" Multiplicity="*" />
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <Association Name="FK_ntqSinhVien_ntqKhoa">
+          <End Role="ntqKhoa" Type="Self.ntqKhoa" Multiplicity="0..1" />
+          <End Role="ntqSinhVien" Type="Self.ntqSinhVien" Multiplicity="*" />
           <ReferentialConstraint>
-            <Principal Role="NtqKhoa">
-              <PropertyRef Name="NtqMaKhoa" />
+            <Principal Role="ntqKhoa">
+              <PropertyRef Name="NtqMaKH" />
             </Principal>
-            <Dependent Role="NtqSinhVien">
-              <PropertyRef Name="NtqMaKhoa" />
+            <Dependent Role="ntqSinhVien">
+              <PropertyRef Name="NtqMaKH" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <EntityContainer Name="NtqK22CNT1Lesson07bEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ntqKhoa" EntityType="Self.ntqKhoa" />
+          <EntitySet Name="ntqSinhVien" EntityType="Self.ntqSinhVien" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <AssociationSet Name="FK_ntqSinhVien_ntqKhoa" Association="Self.FK_ntqSinhVien_ntqKhoa">
+            <End Role="ntqKhoa" EntitySet="ntqKhoa" />
+            <End Role="ntqSinhVien" EntitySet="ntqSinhVien" />
+          </AssociationSet>
+        </EntityContainer>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="NtqK22CNT1Lesoon07bModelStoreContainer" CdmEntityContainer="NtqK22CNT1Lesoon07bEntities1">
-          <EntitySetMapping Name="NtqKhoa">
-            <EntityTypeMapping TypeName="NtqK22CNT1Lesoon07bModel.NtqKhoa">
-              <MappingFragment StoreEntitySet="NtqKhoa">
-                <ScalarProperty Name="NtqMaKhoa" ColumnName="NtqMaKhoa" />
-                <ScalarProperty Name="NtqTenKhoa" ColumnName="NtqTenKhoa" />
+        <EntityContainerMapping StorageEntityContainer="NtqK22CNT1Lesson07bModelStoreContainer" CdmEntityContainer="NtqK22CNT1Lesson07bEntities">
+          <EntitySetMapping Name="ntqKhoa">
+            <EntityTypeMapping TypeName="NtqK22CNT1Lesson07bModel.ntqKhoa">
+              <MappingFragment StoreEntitySet="ntqKhoa">
+                <ScalarProperty Name="NtqMaKH" ColumnName="NtqMaKH" />
+                <ScalarProperty Name="NtqTenKH" ColumnName="NtqTenKH" />
                 <ScalarProperty Name="NtqTrangThai" ColumnName="NtqTrangThai" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="NtqSinhVien">
-            <EntityTypeMapping TypeName="NtqK22CNT1Lesoon07bModel.NtqSinhVien">
-              <MappingFragment StoreEntitySet="NtqSinhVien">
-                <ScalarProperty Name="NtqMaKhoa" ColumnName="NtqMaKhoa" />
+          <EntitySetMapping Name="ntqSinhVien">
+            <EntityTypeMapping TypeName="NtqK22CNT1Lesson07bModel.ntqSinhVien">
+              <MappingFragment StoreEntitySet="ntqSinhVien">
                 <ScalarProperty Name="NtqMaSV" ColumnName="NtqMaSV" />
                 <ScalarProperty Name="NtqHoSV" ColumnName="NtqHoSV" />
-                <ScalarProperty Name="NtqTenSv" ColumnName="NtqTenSv" />
+                <ScalarProperty Name="NtqTenSV" ColumnName="NtqTenSV" />
                 <ScalarProperty Name="NtqNgaySinh" ColumnName="NtqNgaySinh" />
                 <ScalarProperty Name="NtqPhai" ColumnName="NtqPhai" />
                 <ScalarProperty Name="NtqPhone" ColumnName="NtqPhone" />
                 <ScalarProperty Name="NtqEmail" ColumnName="NtqEmail" />
+                <ScalarProperty Name="NtqMaKH" ColumnName="NtqMaKH" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="NtqK22CNT1Lesson07bModel.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

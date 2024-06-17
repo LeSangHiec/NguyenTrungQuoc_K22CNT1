@@ -13,10 +13,10 @@ namespace NtqBaiKiemTraGiuaKi.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class NtqK22CNT1Lesoon07bEntities1 : DbContext
+    public partial class NtqK22CNT1Lesson07bEntities : DbContext
     {
-        public NtqK22CNT1Lesoon07bEntities1()
-            : base("name=NtqK22CNT1Lesoon07bEntities1")
+        public NtqK22CNT1Lesson07bEntities()
+            : base("name=NtqK22CNT1Lesson07bEntities")
         {
         }
     
@@ -25,7 +25,8 @@ namespace NtqBaiKiemTraGiuaKi.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<NtqKhoa> NtqKhoa { get; set; }
-        public virtual DbSet<NtqSinhVien> NtqSinhVien { get; set; }
+        public virtual DbSet<ntqKhoa> ntqKhoa { get; set; }
+        public virtual DbSet<ntqSinhVien> ntqSinhVien { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
     }
 }

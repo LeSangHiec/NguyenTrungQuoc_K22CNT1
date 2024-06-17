@@ -130,11 +130,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\NtqKhoasController.cs" />
+    <Compile Include="Controllers\ntqKhoasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\NtqKhoa.cs">
+    <Compile Include="Models\ntqKhoa.cs">
       <DependentUpon>NtqModel2210900119.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\NtqModel2210900119.Context.cs">
@@ -152,7 +152,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>NtqModel2210900119.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\NtqSinhVien.cs">
+    <Compile Include="Models\ntqSinhVien.cs">
+      <DependentUpon>NtqModel2210900119.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagrams.cs">
       <DependentUpon>NtqModel2210900119.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -225,11 +228,11 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\NtqKhoas\NtqCreate.cshtml" />
-    <Content Include="Views\NtqKhoas\NtqDelete.cshtml" />
-    <Content Include="Views\NtqKhoas\NtqDetails.cshtml" />
-    <Content Include="Views\NtqKhoas\NtqEdit.cshtml" />
-    <Content Include="Views\NtqKhoas\NtqIndex.cshtml" />
+    <Content Include="Views\NtqKhoas\Create.cshtml" />
+    <Content Include="Views\NtqKhoas\Delete.cshtml" />
+    <Content Include="Views\NtqKhoas\Details.cshtml" />
+    <Content Include="Views\NtqKhoas\Edit.cshtml" />
+    <Content Include="Views\NtqKhoas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

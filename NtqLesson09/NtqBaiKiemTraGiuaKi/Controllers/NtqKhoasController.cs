@@ -10,24 +10,24 @@ using NtqBaiKiemTraGiuaKi.Models;
 
 namespace NtqBaiKiemTraGiuaKi.Controllers
 {
-    public class NtqKhoasController : Controller
+    public class ntqKhoasController : Controller
     {
-        private NtqK22CNT1Lesoon07bEntities1 db = new NtqK22CNT1Lesoon07bEntities1();
+        private NtqK22CNT1Lesson07bEntities db = new NtqK22CNT1Lesson07bEntities();
 
-        // GET: NtqKhoas
-        public ActionResult NtqIndex()
+        // GET: ntqKhoas
+        public ActionResult Index()
         {
-            return View(db.NtqKhoa.ToList());
+            return View(db.ntqKhoa.ToList());
         }
 
-        // GET: NtqKhoas/Details/5
-        public ActionResult NtqDetails(string id)
+        // GET: ntqKhoas/Details/5
+        public ActionResult Details(string id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            NtqKhoa ntqKhoa = db.NtqKhoa.Find(id);
+            ntqKhoa ntqKhoa = db.ntqKhoa.Find(id);
             if (ntqKhoa == null)
             {
                 return HttpNotFound();
@@ -35,22 +35,22 @@ namespace NtqBaiKiemTraGiuaKi.Controllers
             return View(ntqKhoa);
         }
 
-        // GET: NtqKhoas/Create
-        public ActionResult NtqCreate()
+        // GET: ntqKhoas/Create
+        public ActionResult Create()
         {
             return View();
         }
 
-        // POST: NtqKhoas/Create
+        // POST: ntqKhoas/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult NtqCreate([Bind(Include = "NtqMaKhoa,NtqTenKhoa,NtqTrangThai")] NtqKhoa ntqKhoa)
+        public ActionResult Create([Bind(Include = "NtqMaKH,NtqTenKH,NtqTrangThai")] ntqKhoa ntqKhoa)
         {
             if (ModelState.IsValid)
             {
-                db.NtqKhoa.Add(ntqKhoa);
+                db.ntqKhoa.Add(ntqKhoa);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -58,14 +58,14 @@ namespace NtqBaiKiemTraGiuaKi.Controllers
             return View(ntqKhoa);
         }
 
-        // GET: NtqKhoas/Edit/5
-        public ActionResult NtqEdit(string id)
+        // GET: ntqKhoas/Edit/5
+        public ActionResult Edit(string id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            NtqKhoa ntqKhoa = db.NtqKhoa.Find(id);
+            ntqKhoa ntqKhoa = db.ntqKhoa.Find(id);
             if (ntqKhoa == null)
             {
                 return HttpNotFound();
@@ -73,12 +73,12 @@ namespace NtqBaiKiemTraGiuaKi.Controllers
             return View(ntqKhoa);
         }
 
-        // POST: NtqKhoas/Edit/5
+        // POST: ntqKhoas/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult NtqEdit([Bind(Include = "NtqMaKhoa,NtqTenKhoa,NtqTrangThai")] NtqKhoa ntqKhoa)
+        public ActionResult Edit([Bind(Include = "NtqMaKH,NtqTenKH,NtqTrangThai")] ntqKhoa ntqKhoa)
         {
             if (ModelState.IsValid)
             {
@@ -89,14 +89,14 @@ namespace NtqBaiKiemTraGiuaKi.Controllers
             return View(ntqKhoa);
         }
 
-        // GET: NtqKhoas/Delete/5
-        public ActionResult NtqDelete(string id)
+        // GET: ntqKhoas/Delete/5
+        public ActionResult Delete(string id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            NtqKhoa ntqKhoa = db.NtqKhoa.Find(id);
+            ntqKhoa ntqKhoa = db.ntqKhoa.Find(id);
             if (ntqKhoa == null)
             {
                 return HttpNotFound();
@@ -104,13 +104,13 @@ namespace NtqBaiKiemTraGiuaKi.Controllers
             return View(ntqKhoa);
         }
 
-        // POST: NtqKhoas/Delete/5
+        // POST: ntqKhoas/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(string id)
         {
-            NtqKhoa ntqKhoa = db.NtqKhoa.Find(id);
-            db.NtqKhoa.Remove(ntqKhoa);
+            ntqKhoa ntqKhoa = db.ntqKhoa.Find(id);
+            db.ntqKhoa.Remove(ntqKhoa);
             db.SaveChanges();
             return RedirectToAction("Index");
         }

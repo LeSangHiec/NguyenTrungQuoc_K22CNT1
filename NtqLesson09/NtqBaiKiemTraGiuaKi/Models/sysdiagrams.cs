@@ -12,17 +12,12 @@ namespace NtqBaiKiemTraGiuaKi.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class ntqSinhVien
+    public partial class sysdiagrams
     {
-        public string NtqMaSV { get; set; }
-        public string NtqHoSV { get; set; }
-        public string NtqTenSV { get; set; }
-        public Nullable<System.DateTime> NtqNgaySinh { get; set; }
-        public Nullable<bool> NtqPhai { get; set; }
-        public string NtqPhone { get; set; }
-        public string NtqEmail { get; set; }
-        public string NtqMaKH { get; set; }
-    
-        public virtual ntqKhoa ntqKhoa { get; set; }
+        public string name { get; set; }
+        public int principal_id { get; set; }
+        public int diagram_id { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

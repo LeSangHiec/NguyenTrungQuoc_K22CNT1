@@ -1,44 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="NtqK22CNT1Lesoon07bModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
-  <EntityType Name="NtqKhoa">
+<Schema Namespace="NtqK22CNT1Lesson07bModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ntqKhoa">
     <Key>
-      <PropertyRef Name="NtqMaKhoa" />
+      <PropertyRef Name="NtqMaKH" />
     </Key>
-    <Property Name="NtqMaKhoa" Type="nchar" MaxLength="10" Nullable="false" />
-    <Property Name="NtqTenKhoa" Type="nvarchar" MaxLength="50" />
+    <Property Name="NtqMaKH" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="NtqTenKH" Type="nvarchar" MaxLength="50" />
     <Property Name="NtqTrangThai" Type="bit" />
   </EntityType>
-  <EntityType Name="NtqSinhVien">
+  <EntityType Name="ntqSinhVien">
     <Key>
       <PropertyRef Name="NtqMaSV" />
     </Key>
     <Property Name="NtqMaSV" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="NtqHoSV" Type="nvarchar" MaxLength="50" />
-    <Property Name="NtqTenSv" Type="nvarchar" MaxLength="50" />
+    <Property Name="NtqTenSV" Type="nvarchar" MaxLength="50" />
     <Property Name="NtqNgaySinh" Type="date" />
     <Property Name="NtqPhai" Type="bit" />
     <Property Name="NtqPhone" Type="nchar" MaxLength="10" />
-    <Property Name="NtqEmail" Type="nvarchar" MaxLength="50" />
-    <Property Name="NtqMaKhoa" Type="nchar" MaxLength="10" />
+    <Property Name="NtqEmail" Type="nchar" MaxLength="10" />
+    <Property Name="NtqMaKH" Type="nchar" MaxLength="10" />
   </EntityType>
-  <Association Name="FK_NtqSinhVien_NtqKhoa">
-    <End Role="NtqKhoa" Type="Self.NtqKhoa" Multiplicity="0..1" />
-    <End Role="NtqSinhVien" Type="Self.NtqSinhVien" Multiplicity="*" />
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_ntqSinhVien_ntqKhoa">
+    <End Role="ntqKhoa" Type="Self.ntqKhoa" Multiplicity="0..1" />
+    <End Role="ntqSinhVien" Type="Self.ntqSinhVien" Multiplicity="*" />
     <ReferentialConstraint>
-      <Principal Role="NtqKhoa">
-        <PropertyRef Name="NtqMaKhoa" />
+      <Principal Role="ntqKhoa">
+        <PropertyRef Name="NtqMaKH" />
       </Principal>
-      <Dependent Role="NtqSinhVien">
-        <PropertyRef Name="NtqMaKhoa" />
+      <Dependent Role="ntqSinhVien">
+        <PropertyRef Name="NtqMaKH" />
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="NtqK22CNT1Lesoon07bModelStoreContainer">
-    <EntitySet Name="NtqKhoa" EntityType="Self.NtqKhoa" Schema="dbo" store:Type="Tables" />
-    <EntitySet Name="NtqSinhVien" EntityType="Self.NtqSinhVien" Schema="dbo" store:Type="Tables" />
-    <AssociationSet Name="FK_NtqSinhVien_NtqKhoa" Association="Self.FK_NtqSinhVien_NtqKhoa">
-      <End Role="NtqKhoa" EntitySet="NtqKhoa" />
-      <End Role="NtqSinhVien" EntitySet="NtqSinhVien" />
+  <EntityContainer Name="NtqK22CNT1Lesson07bModelStoreContainer">
+    <EntitySet Name="ntqKhoa" EntityType="Self.ntqKhoa" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ntqSinhVien" EntityType="Self.ntqSinhVien" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ntqSinhVien_ntqKhoa" Association="Self.FK_ntqSinhVien_ntqKhoa">
+      <End Role="ntqKhoa" EntitySet="ntqKhoa" />
+      <End Role="ntqSinhVien" EntitySet="ntqSinhVien" />
     </AssociationSet>
   </EntityContainer>
 </Schema>
