@@ -1,0 +1,517 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\ketquas\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\ketquas\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\ketquas\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\ketquas\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\ketquas\\ntqdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\ketquas\\ntqdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\ketquas\\ntqcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\ketquas\\ntqcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\controllers\\ketquascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\controllers\\ketquascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\ketquas\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\ketquas\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\monhocs\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\monhocs\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\monhocs\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\monhocs\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\controllers\\khoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\controllers\\khoascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\monhocs\\ntqdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\monhocs\\ntqdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\monhocs\\ntqcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\monhocs\\ntqcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\khoas\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\khoas\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\khoas\\ntqcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\khoas\\ntqcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\khoas\\ntqdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\khoas\\ntqdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\khoas\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\khoas\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\khoas\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\khoas\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\sinhviens\\ntqcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\sinhviens\\ntqcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\monhocs\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\monhocs\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\controllers\\monhocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\controllers\\monhocscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\sinhviens\\ntqdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\sinhviens\\ntqdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\sinhviens\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\sinhviens\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\controllers\\sinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\controllers\\sinhvienscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\sinhviens\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\sinhviens\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\sinhviens\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\sinhviens\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\models\\quocmodel2210900119.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\models\\quocmodel2210900119.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NtqDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Khoas\\NtqDelete.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\Khoas\\NtqDelete.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Khoas\\NtqDelete.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\Khoas\\NtqDelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:35:40.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NtqCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Khoas\\NtqCreate.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\Khoas\\NtqCreate.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Khoas\\NtqCreate.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\Khoas\\NtqCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:34:04.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NtqIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\KetQuas\\NtqIndex.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\KetQuas\\NtqIndex.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\KetQuas\\NtqIndex.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\KetQuas\\NtqIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:32:28.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NtqCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\MonHocs\\NtqCreate.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\MonHocs\\NtqCreate.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\MonHocs\\NtqCreate.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\MonHocs\\NtqCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:12:55.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NtqDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\MonHocs\\NtqDelete.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\MonHocs\\NtqDelete.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\MonHocs\\NtqDelete.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\MonHocs\\NtqDelete.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:13:00.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NtqEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\MonHocs\\NtqEdit.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\MonHocs\\NtqEdit.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\MonHocs\\NtqEdit.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\MonHocs\\NtqEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:13:15.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NtqIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\MonHocs\\NtqIndex.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\MonHocs\\NtqIndex.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\MonHocs\\NtqIndex.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\MonHocs\\NtqIndex.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACEAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:11:42.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NtqEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\KetQuas\\NtqEdit.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\KetQuas\\NtqEdit.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\KetQuas\\NtqEdit.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\KetQuas\\NtqEdit.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:32:22.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NtqDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\KetQuas\\NtqDetails.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\KetQuas\\NtqDetails.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\KetQuas\\NtqDetails.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\KetQuas\\NtqDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:32:13.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NtqDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\KetQuas\\NtqDelete.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\KetQuas\\NtqDelete.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\KetQuas\\NtqDelete.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\KetQuas\\NtqDelete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:32:00.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NtqCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\KetQuas\\NtqCreate.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\KetQuas\\NtqCreate.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\KetQuas\\NtqCreate.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\KetQuas\\NtqCreate.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:31:53.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KetQuasController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Controllers\\KetQuasController.cs",
+              "RelativeDocumentMoniker": "Quoc24061\\Controllers\\KetQuasController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Controllers\\KetQuasController.cs",
+              "RelativeToolTip": "Quoc24061\\Controllers\\KetQuasController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAiwEQAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T03:09:55.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KhoasController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Controllers\\KhoasController.cs",
+              "RelativeDocumentMoniker": "Quoc24061\\Controllers\\KhoasController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Controllers\\KhoasController.cs",
+              "RelativeToolTip": "Quoc24061\\Controllers\\KhoasController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwFwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T03:11:03.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NtqDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Khoas\\NtqDetails.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\Khoas\\NtqDetails.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Khoas\\NtqDetails.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\Khoas\\NtqDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:36:00.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NtqEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Khoas\\NtqEdit.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\Khoas\\NtqEdit.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Khoas\\NtqEdit.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\Khoas\\NtqEdit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:36:45.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NtqIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Khoas\\NtqIndex.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\Khoas\\NtqIndex.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Khoas\\NtqIndex.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\Khoas\\NtqIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:36:46.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MonHocsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Controllers\\MonHocsController.cs",
+              "RelativeDocumentMoniker": "Quoc24061\\Controllers\\MonHocsController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Controllers\\MonHocsController.cs",
+              "RelativeToolTip": "Quoc24061\\Controllers\\MonHocsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T03:10:11.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NtqDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\MonHocs\\NtqDetails.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\MonHocs\\NtqDetails.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\MonHocs\\NtqDetails.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\MonHocs\\NtqDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:13:06.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:07:51.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\Home\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T03:07:50.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T02:02:43.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NtqCreate.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\SinhViens\\NtqCreate.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\SinhViens\\NtqCreate.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\SinhViens\\NtqCreate.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\SinhViens\\NtqCreate.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T02:52:08.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NtqDelete.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\SinhViens\\NtqDelete.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\SinhViens\\NtqDelete.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\SinhViens\\NtqDelete.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\SinhViens\\NtqDelete.cshtml",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAAADwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T02:59:53.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NtqDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\SinhViens\\NtqDetails.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\SinhViens\\NtqDetails.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\SinhViens\\NtqDetails.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\SinhViens\\NtqDetails.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T02:59:44.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NtqEdit.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\SinhViens\\NtqEdit.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\SinhViens\\NtqEdit.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\SinhViens\\NtqEdit.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\SinhViens\\NtqEdit.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAF4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T02:59:24.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NtqIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\SinhViens\\NtqIndex.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\SinhViens\\NtqIndex.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\SinhViens\\NtqIndex.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\SinhViens\\NtqIndex.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAEUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T02:48:13.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Quoc24061\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Quoc24061\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T02:58:08.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SinhViensController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Controllers\\SinhViensController.cs",
+              "RelativeDocumentMoniker": "Quoc24061\\Controllers\\SinhViensController.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Controllers\\SinhViensController.cs",
+              "RelativeToolTip": "Quoc24061\\Controllers\\SinhViensController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAiwHIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T02:47:03.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "QuocModel2210900119.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Models\\QuocModel2210900119.edmx",
+              "RelativeDocumentMoniker": "Quoc24061\\Models\\QuocModel2210900119.edmx",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Models\\QuocModel2210900119.edmx [Diagram1]",
+              "RelativeToolTip": "Quoc24061\\Models\\QuocModel2210900119.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-06-24T02:04:58.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Quoc24061\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\Quoc24061\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Quoc24061\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-24T02:02:42.63Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
