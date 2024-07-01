@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="NtqLesson11DbsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="NtqTaiKhoan">
+    <Key>
+      <PropertyRef Name="NtqId" />
+    </Key>
+    <Property Name="NtqId" Type="int" Nullable="false" />
+    <Property Name="NtqUserName" Type="nvarchar" MaxLength="50" />
+    <Property Name="NtqPassword" Type="nvarchar" MaxLength="50" />
+    <Property Name="NtqFullName" Type="nvarchar" MaxLength="50" />
+    <Property Name="NtqAge" Type="int" />
+    <Property Name="NtqEmail" Type="nvarchar" MaxLength="50" />
+    <Property Name="NtqPhone" Type="nvarchar" MaxLength="50" />
+    <Property Name="NtqStatus" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="NtqLesson11DbsModelStoreContainer">
+    <EntitySet Name="NtqTaiKhoan" EntityType="Self.NtqTaiKhoan" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

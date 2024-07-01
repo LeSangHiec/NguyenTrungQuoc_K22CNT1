@@ -1,0 +1,70 @@
+﻿@model IEnumerable<NtqK22CNT1Lesson11.Models.NtqTaiKhoan>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_NtqLayout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqUserName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqPassword)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqFullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqAge)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NtqStatus)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqUserName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqPassword)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqFullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqAge)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NtqStatus)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.NtqId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.NtqId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.NtqId })
+        </td>
+    </tr>
+}
+
+</table>
