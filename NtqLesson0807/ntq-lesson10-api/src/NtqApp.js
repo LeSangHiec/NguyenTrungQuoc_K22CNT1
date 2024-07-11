@@ -1,4 +1,3 @@
-
 import './App.css';
 import NtqListUsers from './components/NtqListUsers';
 import axios from './api/ntqApi'

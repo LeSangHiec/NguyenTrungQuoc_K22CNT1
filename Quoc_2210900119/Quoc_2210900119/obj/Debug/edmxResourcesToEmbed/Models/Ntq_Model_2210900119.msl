@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Quoc_2210900119ModelStoreContainer" CdmEntityContainer="Quoc_2210900119Entities">
+    <EntitySetMapping Name="NTQ_SACH">
+      <EntityTypeMapping TypeName="Quoc_2210900119Model.NTQ_SACH">
+        <MappingFragment StoreEntitySet="NTQ_SACH">
+          <ScalarProperty Name="Ntq_MaSach" ColumnName="Ntq_MaSach" />
+          <ScalarProperty Name="Ntq_TenSach" ColumnName="Ntq_TenSach" />
+          <ScalarProperty Name="Ntq_SoTrang" ColumnName="Ntq_SoTrang" />
+          <ScalarProperty Name="Ntq_NamXB" ColumnName="Ntq_NamXB" />
+          <ScalarProperty Name="Ntq_MaTG" ColumnName="Ntq_MaTG" />
+          <ScalarProperty Name="Ntq_TrangThai" ColumnName="Ntq_TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NTQ_TACGIA">
+      <EntityTypeMapping TypeName="Quoc_2210900119Model.NTQ_TACGIA">
+        <MappingFragment StoreEntitySet="NTQ_TACGIA">
+          <ScalarProperty Name="Ntq_MaTG" ColumnName="Ntq_MaTG" />
+          <ScalarProperty Name="Ntq_TenTG" ColumnName="Ntq_TenTG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Quoc_2210900119Model.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

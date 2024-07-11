@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Quoc_2210900119Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="NTQ_SACH">
+          <Key>
+            <PropertyRef Name="Ntq_MaSach" />
+          </Key>
+          <Property Name="Ntq_MaSach" Type="char" MaxLength="10" Nullable="false" />
+          <Property Name="Ntq_TenSach" Type="nvarchar" MaxLength="50" />
+          <Property Name="Ntq_SoTrang" Type="int" />
+          <Property Name="Ntq_NamXB" Type="int" />
+          <Property Name="Ntq_MaTG" Type="nchar" MaxLength="10" />
+          <Property Name="Ntq_TrangThai" Type="bit" />
+        </EntityType>
+        <EntityType Name="NTQ_TACGIA">
+          <Key>
+            <PropertyRef Name="Ntq_MaTG" />
+          </Key>
+          <Property Name="Ntq_MaTG" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="Ntq_TenTG" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <Association Name="FK_NTQ_SACH_NTQ_TACGIA">
+          <End Role="NTQ_TACGIA" Type="Self.NTQ_TACGIA" Multiplicity="0..1" />
+          <End Role="NTQ_SACH" Type="Self.NTQ_SACH" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NTQ_TACGIA">
+              <PropertyRef Name="Ntq_MaTG" />
+            </Principal>
+            <Dependent Role="NTQ_SACH">
+              <PropertyRef Name="Ntq_MaTG" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Quoc_2210900119ModelStoreContainer">
+          <EntitySet Name="NTQ_SACH" EntityType="Self.NTQ_SACH" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="NTQ_TACGIA" EntityType="Self.NTQ_TACGIA" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_NTQ_SACH_NTQ_TACGIA" Association="Self.FK_NTQ_SACH_NTQ_TACGIA">
+            <End Role="NTQ_TACGIA" EntitySet="NTQ_TACGIA" />
+            <End Role="NTQ_SACH" EntitySet="NTQ_SACH" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Quoc_2210900119Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="NTQ_SACH">
+          <Key>
+            <PropertyRef Name="Ntq_MaSach" />
+          </Key>
+          <Property Name="Ntq_MaSach" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+          <Property Name="Ntq_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Ntq_SoTrang" Type="Int32" />
+          <Property Name="Ntq_NamXB" Type="Int32" />
+          <Property Name="Ntq_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+          <Property Name="Ntq_TrangThai" Type="Boolean" />
+          <NavigationProperty Name="NTQ_TACGIA" Relationship="Self.FK_NTQ_SACH_NTQ_TACGIA" FromRole="NTQ_SACH" ToRole="NTQ_TACGIA" />
+        </EntityType>
+        <EntityType Name="NTQ_TACGIA">
+          <Key>
+            <PropertyRef Name="Ntq_MaTG" />
+          </Key>
+          <Property Name="Ntq_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="Ntq_TenTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="NTQ_SACH" Relationship="Self.FK_NTQ_SACH_NTQ_TACGIA" FromRole="NTQ_TACGIA" ToRole="NTQ_SACH" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="principal_id" Type="Int32" Nullable="false" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="Int32" />
+          <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+        </EntityType>
+        <Association Name="FK_NTQ_SACH_NTQ_TACGIA">
+          <End Role="NTQ_TACGIA" Type="Self.NTQ_TACGIA" Multiplicity="0..1" />
+          <End Role="NTQ_SACH" Type="Self.NTQ_SACH" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="NTQ_TACGIA">
+              <PropertyRef Name="Ntq_MaTG" />
+            </Principal>
+            <Dependent Role="NTQ_SACH">
+              <PropertyRef Name="Ntq_MaTG" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Quoc_2210900119Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="NTQ_SACH" EntityType="Self.NTQ_SACH" />
+          <EntitySet Name="NTQ_TACGIA" EntityType="Self.NTQ_TACGIA" />
+          <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+          <AssociationSet Name="FK_NTQ_SACH_NTQ_TACGIA" Association="Self.FK_NTQ_SACH_NTQ_TACGIA">
+            <End Role="NTQ_TACGIA" EntitySet="NTQ_TACGIA" />
+            <End Role="NTQ_SACH" EntitySet="NTQ_SACH" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Quoc_2210900119ModelStoreContainer" CdmEntityContainer="Quoc_2210900119Entities">
+          <EntitySetMapping Name="NTQ_SACH">
+            <EntityTypeMapping TypeName="Quoc_2210900119Model.NTQ_SACH">
+              <MappingFragment StoreEntitySet="NTQ_SACH">
+                <ScalarProperty Name="Ntq_MaSach" ColumnName="Ntq_MaSach" />
+                <ScalarProperty Name="Ntq_TenSach" ColumnName="Ntq_TenSach" />
+                <ScalarProperty Name="Ntq_SoTrang" ColumnName="Ntq_SoTrang" />
+                <ScalarProperty Name="Ntq_NamXB" ColumnName="Ntq_NamXB" />
+                <ScalarProperty Name="Ntq_MaTG" ColumnName="Ntq_MaTG" />
+                <ScalarProperty Name="Ntq_TrangThai" ColumnName="Ntq_TrangThai" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="NTQ_TACGIA">
+            <EntityTypeMapping TypeName="Quoc_2210900119Model.NTQ_TACGIA">
+              <MappingFragment StoreEntitySet="NTQ_TACGIA">
+                <ScalarProperty Name="Ntq_MaTG" ColumnName="Ntq_MaTG" />
+                <ScalarProperty Name="Ntq_TenTG" ColumnName="Ntq_TenTG" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="sysdiagrams">
+            <EntityTypeMapping TypeName="Quoc_2210900119Model.sysdiagrams">
+              <MappingFragment StoreEntitySet="sysdiagrams">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+                <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+                <ScalarProperty Name="version" ColumnName="version" />
+                <ScalarProperty Name="definition" ColumnName="definition" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

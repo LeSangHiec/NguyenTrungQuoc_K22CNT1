@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Quoc_2210900119.Models.NTQ_TACGIA>
+
+@{
+    ViewBag.Title = "NtqIndex";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "NtqCreate")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Ntq_TenTG)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Ntq_TenTG)
+        </td>
+        <td>
+            @Html.ActionLink("NtqEdit", "NtqEdit", new { id=item.Ntq_MaTG.Trim() }) |
+            @Html.ActionLink("NtqDetails", "NtqDetails", new { id=item.Ntq_MaTG.Trim() }) |
+            @Html.ActionLink("NtqDelete", "NtqDelete", new { id=item.Ntq_MaTG.Trim() })
+        </td>
+    </tr>
+}
+
+</table>

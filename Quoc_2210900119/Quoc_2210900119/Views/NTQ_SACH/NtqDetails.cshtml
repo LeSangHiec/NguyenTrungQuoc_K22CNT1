@@ -1,0 +1,58 @@
+﻿@model Quoc_2210900119.Models.NTQ_SACH
+
+@{
+    ViewBag.Title = "NtqDetails";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NTQ_SACH</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ntq_TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ntq_TenSach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ntq_SoTrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ntq_SoTrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ntq_NamXB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ntq_NamXB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Ntq_TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ntq_TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NTQ_TACGIA.Ntq_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NTQ_TACGIA.Ntq_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("NtqEdit", "NtqEdit", new { id = Model.Ntq_MaSach }) |
+    @Html.ActionLink("Back to List", "NtqIndex")
+</p>

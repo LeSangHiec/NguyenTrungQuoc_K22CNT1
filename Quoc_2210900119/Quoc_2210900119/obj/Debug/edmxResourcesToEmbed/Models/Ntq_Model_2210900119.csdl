@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Quoc_2210900119Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NTQ_SACH">
+    <Key>
+      <PropertyRef Name="Ntq_MaSach" />
+    </Key>
+    <Property Name="Ntq_MaSach" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="Ntq_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Ntq_SoTrang" Type="Int32" />
+    <Property Name="Ntq_NamXB" Type="Int32" />
+    <Property Name="Ntq_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Ntq_TrangThai" Type="Boolean" />
+    <NavigationProperty Name="NTQ_TACGIA" Relationship="Self.FK_NTQ_SACH_NTQ_TACGIA" FromRole="NTQ_SACH" ToRole="NTQ_TACGIA" />
+  </EntityType>
+  <EntityType Name="NTQ_TACGIA">
+    <Key>
+      <PropertyRef Name="Ntq_MaTG" />
+    </Key>
+    <Property Name="Ntq_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Ntq_TenTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="NTQ_SACH" Relationship="Self.FK_NTQ_SACH_NTQ_TACGIA" FromRole="NTQ_TACGIA" ToRole="NTQ_SACH" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_NTQ_SACH_NTQ_TACGIA">
+    <End Role="NTQ_TACGIA" Type="Self.NTQ_TACGIA" Multiplicity="0..1" />
+    <End Role="NTQ_SACH" Type="Self.NTQ_SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="NTQ_TACGIA">
+        <PropertyRef Name="Ntq_MaTG" />
+      </Principal>
+      <Dependent Role="NTQ_SACH">
+        <PropertyRef Name="Ntq_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Quoc_2210900119Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NTQ_SACH" EntityType="Self.NTQ_SACH" />
+    <EntitySet Name="NTQ_TACGIA" EntityType="Self.NTQ_TACGIA" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_NTQ_SACH_NTQ_TACGIA" Association="Self.FK_NTQ_SACH_NTQ_TACGIA">
+      <End Role="NTQ_TACGIA" EntitySet="NTQ_TACGIA" />
+      <End Role="NTQ_SACH" EntitySet="NTQ_SACH" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

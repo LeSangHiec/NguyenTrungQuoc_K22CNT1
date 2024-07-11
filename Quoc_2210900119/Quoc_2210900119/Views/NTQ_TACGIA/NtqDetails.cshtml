@@ -1,0 +1,26 @@
+﻿@model Quoc_2210900119.Models.NTQ_TACGIA
+
+@{
+    ViewBag.Title = "NtqDetails";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>NTQ_TACGIA</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ntq_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ntq_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("NtqEdit", "NtqEdit", new { id = Model.Ntq_MaTG }) |
+    @Html.ActionLink("Back to List", "NtqIndex")
+</p>

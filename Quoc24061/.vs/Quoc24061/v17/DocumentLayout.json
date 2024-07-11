@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc24061\\quoc24061\\views\\ketquas\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc24061\\quoc24061\\views\\ketquas\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9B3A4858-EEAA-4F80-9321-339D512CFCBB}|Quoc24061\\Quoc24061.csproj|solutionrelative:quoc24061\\views\\ketquas\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -146,8 +146,7 @@
               "RelativeToolTip": "Quoc24061\\Views\\Shared\\Error.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T03:56:56.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T03:56:56.695Z"
             },
             {
               "$type": "Document",
@@ -171,8 +170,7 @@
               "RelativeToolTip": "Quoc24061\\Views\\KetQuas\\NtqIndex.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-24T03:32:28.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T03:32:28.049Z"
             },
             {
               "$type": "Document",
