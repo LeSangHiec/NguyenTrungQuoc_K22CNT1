@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\quoc_2210900119\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|solutionrelative:quoc_2210900119\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\quoc_2210900119\\views\\ntq_tacgia\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|solutionrelative:quoc_2210900119\\views\\ntq_tacgia\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\quoc_2210900119\\views\\ntq_tacgia\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|solutionrelative:quoc_2210900119\\views\\ntq_tacgia\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\quoc_2210900119\\views\\ntq_tacgia\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|solutionrelative:quoc_2210900119\\views\\ntq_tacgia\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|c:\\users\\admin\\downloads\\quoccntt\\quocquoc\\quoc_2210900119\\quoc_2210900119\\controllers\\ntq_tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|solutionrelative:quoc_2210900119\\controllers\\ntq_tacgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +27,8 @@
       "RelativeMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|solutionrelative:quoc_2210900119\\views\\ntq_tacgia\\ntqdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\quoc_2210900119\\views\\ntq_tacgia\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|solutionrelative:quoc_2210900119\\views\\ntq_tacgia\\ntqdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\quoc_2210900119\\views\\ntq_tacgia\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|solutionrelative:quoc_2210900119\\views\\ntq_tacgia\\ntqedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\quoc_2210900119\\views\\ntq_tacgia\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|solutionrelative:quoc_2210900119\\views\\ntq_tacgia\\ntqindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\quoc_2210900119\\views\\ntq_tacgia\\ntqcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|solutionrelative:quoc_2210900119\\views\\ntq_tacgia\\ntqcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\quoc_2210900119\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|solutionrelative:quoc_2210900119\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA347BCC-C172-4A92-A78B-CCCB84311EC6}|Quoc_2210900119\\Quoc_2210900119.csproj|C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\quoc_2210900119\\controllers\\ntq_sachcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -114,7 +114,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -142,28 +142,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "NTQ_TACGIAController.cs",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\Quoc_2210900119\\Controllers\\NTQ_TACGIAController.cs",
               "RelativeDocumentMoniker": "Quoc_2210900119\\Controllers\\NTQ_TACGIAController.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\Quoc_2210900119\\Controllers\\NTQ_TACGIAController.cs",
               "RelativeToolTip": "Quoc_2210900119\\Controllers\\NTQ_TACGIAController.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAQwFYAAAAsAAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAowFYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T13:23:11.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\Quoc_2210900119\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Quoc_2210900119\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\Quoc_2210900119\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Quoc_2210900119\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T13:06:20.802Z"
+              "WhenOpened": "2024-07-11T13:06:20.802Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -191,15 +192,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "NtqDetails.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqDetails.cshtml",
               "RelativeDocumentMoniker": "Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqDetails.cshtml",
               "ToolTip": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqDetails.cshtml",
               "RelativeToolTip": "Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqDetails.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T13:25:17.031Z"
+              "WhenOpened": "2024-07-11T13:25:17.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -211,11 +213,12 @@
               "RelativeToolTip": "Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqEdit.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T13:25:28.316Z"
+              "WhenOpened": "2024-07-11T13:25:28.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "NtqIndex.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqIndex.cshtml",
               "RelativeDocumentMoniker": "Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqIndex.cshtml",
@@ -223,11 +226,12 @@
               "RelativeToolTip": "Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqIndex.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T13:23:49.295Z"
+              "WhenOpened": "2024-07-11T13:23:49.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "NtqDelete.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqDelete.cshtml",
               "RelativeDocumentMoniker": "Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqDelete.cshtml",
@@ -275,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "NtqCreate.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\QuocCNTT\\quocquoc\\Quoc_2210900119\\Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqCreate.cshtml",
               "RelativeDocumentMoniker": "Quoc_2210900119\\Views\\NTQ_TACGIA\\NtqCreate.cshtml",
